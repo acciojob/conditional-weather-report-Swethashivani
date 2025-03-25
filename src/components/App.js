@@ -1,6 +1,7 @@
 
 import React from "react";
 import './../styles/App.css';
+import WeatchDisplay from "./WeatherDisplay"
 
 const App = () => {
 const [data,setData] = React.useState(null)
